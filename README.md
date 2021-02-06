@@ -10,9 +10,20 @@ UHF FM/DMR/C4FM-YSF/AX.25 quad-mode mobile amateur radio transceiver
 
 This is a DIY radio project.
 
+### 项目组件 Project Components
+
+这个项目被分为多个子模块：
+
+This project is split into multiple modules:
+
+* `ZyphyrRadioPCB` - 主机硬件 Main board hardware
+* `ZyphyrRadioFirmware` - 主机固件 Main board firmware
+* `ZyphyrMicPCB` - 手咪硬件 Hand mic hardware
+* `ZyphyrMicFirmware` - 手咪固件 Hand mic firmware
+
 ## 开发工具 Development Tools
 
-本项目使用 [KiCad][KiCad] 开发。请[下载][KiCadDownload]安装后再打开。
+本项目使用 [KiCad][KiCad] 和 Eclipse CDT 开发。请[下载][KiCadDownload]安装后再打开。
 
 This project is developed using [KiCad][KiCad]. Please [download][KiCadDownload]
 and install it before opening this project.
